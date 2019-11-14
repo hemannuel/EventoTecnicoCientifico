@@ -1,6 +1,6 @@
-package Interfaces;
+package Controller;
 
-import Principal.Submissao;
+import Model.Submissoes.Submissao;
 
 import java.util.List;
 
