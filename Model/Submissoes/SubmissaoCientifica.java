@@ -6,7 +6,7 @@ import java.util.ArrayList;
 
     public class SubmissaoCientifica extends Submissao{
     private ArrayList <String> instituicoes = new ArrayList();
-    private ArrayList<String > palavraChave = new ArrayList();
+    private ArrayList<String> palavraChave = new ArrayList();
     private final int MAX_INSTITUICOES;
 
 

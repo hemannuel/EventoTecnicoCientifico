@@ -12,6 +12,6 @@ public class Resumo extends SubmissaoCientifica {
     char palavraChave = 3;
 
     public Resumo(int max_autores, String titulo, Status status, ArrayList autores, ArrayList instituicoes, ArrayList palavraChave) {
-        super(8, titulo, status, autores, instituicoes, palavraChave);
+        super(max_autores, titulo, status, autores, instituicoes, palavraChave);
     }
 }
