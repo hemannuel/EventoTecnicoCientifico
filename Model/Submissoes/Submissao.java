@@ -1,6 +1,6 @@
 package Model.Submissoes;
 
-import Model.Status;
+import Model.Principal.Status;
 
 import java.util.ArrayList;
 
@@ -10,11 +10,11 @@ public class Submissao  {
     private ArrayList <String> autores = new ArrayList();
     private final int MAX_AUTORES ;
 
-    public Submissao(int max_autores, String titulo, Status status) {
+    public Submissao(int max_autores, ArrayList autores, String titulo, Status status) {
         MAX_AUTORES = max_autores;
         this.titulo = titulo;
         this.status = status;
-        this.autores = autores;
+        this.autores = this.autores;
 
     }
 

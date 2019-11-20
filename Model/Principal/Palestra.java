@@ -1,4 +1,4 @@
-package Model;
+package Model.Principal;
 
 import Model.Submissoes.SubmissaoApresentacao;
 

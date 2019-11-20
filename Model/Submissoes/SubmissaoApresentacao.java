@@ -1,7 +1,6 @@
 package Model.Submissoes;
 
-import Controller.ISubmissoes;
-import Model.Status;
+import Model.Principal.Status;
 
 import java.util.ArrayList;
 
@@ -12,7 +11,7 @@ public class SubmissaoApresentacao extends Submissao {
 
 
     public SubmissaoApresentacao(int max_autores, String titulo, Status status, ArrayList autores, String resumo, String abstractResumo, int duracao) {
-        super(max_autores, titulo, status);
+        super(max_autores, autores, titulo, status);
         this.resumo = resumo;
         this.abstractResumo = abstractResumo;
         this.duracao = duracao;
